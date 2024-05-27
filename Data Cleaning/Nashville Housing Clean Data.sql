@@ -309,5 +309,5 @@ DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress, SaleDate, SoldAsVacant
 --GO
 --SELECT * INTO nashvilleHousing
 --FROM OPENROWSET('Microsoft.ACE.OLEDB.12.0',
---    'Excel 12.0; Database=C:\Users\alexf\OneDrive\Documents\SQL Server Management Studio\Nashville Housing Data for Data Cleaning Project.csv', [Sheet1$]);
+--    'Excel 12.0; Database=Filepath', [Sheet1$]);
 --GO
