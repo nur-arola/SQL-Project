@@ -296,7 +296,7 @@ DROP COLUMN OwnerAddress, TaxDistrict, PropertyAddress, SaleDate, SoldAsVacant
 
 --USE DataCleaning;
 --GO
---BULK INSERT nashvilleHousing FROM 'C:\Temp\SQL Server Management Studio\Nashville Housing Data for Data Cleaning Project.csv'
+--BULK INSERT nashvilleHousing FROM ''FilePath
 --   WITH (
 --      FIELDTERMINATOR = ',',
 --      ROWTERMINATOR = '\n'
